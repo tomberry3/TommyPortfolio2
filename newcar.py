@@ -37,7 +37,9 @@ why it is necessary and where it is being used in the rest of the program.
 
 
 class Car:
-    """1. This Function:"""
+    """1. This Function:
+    This code 
+    """
 
     def __init__(self):
         # Load Car Sprite and Rotate
@@ -67,6 +69,7 @@ class Car:
 
     """ 2. This Function:
     
+
     """
 
     def draw(self, screen):
@@ -263,7 +266,7 @@ def run_simulation(genomes, config):
     clock = pygame.time.Clock()
     generation_font = pygame.font.SysFont("Arial", 30)
     alive_font = pygame.font.SysFont("Arial", 20)
-    game_map = pygame.image.load("map.png").convert()  # Convert Speeds Up A Lot
+    game_map = pygame.image.load("map4.png").convert()  # Convert Speeds Up A Lot
 
     global current_generation
     current_generation += 1
@@ -330,9 +333,9 @@ def run_simulation(genomes, config):
         clock.tick(60)  # 60 FPS
 
 
-""" 1. This Section:
+""" 1. This Section: #main section that configs everything
     
-"""
+""" 
 if __name__ == "__main__":
     # Load Config
     config_path = "./config.txt"

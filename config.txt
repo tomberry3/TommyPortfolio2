@@ -6,9 +6,9 @@ reset_on_extinction   = True
 
 [DefaultGenome]
 # node activation options
-activation_default      = tanh
+activation_default      = softplus 
 activation_mutate_rate  = 0.01
-activation_options      = tanh
+activation_options      = softplus
 
 # node aggregation options
 aggregation_default     = sum
