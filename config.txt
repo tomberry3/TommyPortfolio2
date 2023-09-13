@@ -6,9 +6,9 @@ reset_on_extinction   = True
 
 [DefaultGenome]
 # node activation options
-activation_default      = softplus 
+activation_default      = exp
 activation_mutate_rate  = 0.01
-activation_options      = softplus
+activation_options      = exp
 
 # node aggregation options
 aggregation_default     = sum
